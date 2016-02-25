@@ -2,6 +2,7 @@
 from collections import defaultdict
 import uuid
 
+
 class InMemoryStorage(object):
     """An in-memory, simple implementation of the Riak storage backend."""
     def __init__(self):

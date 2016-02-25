@@ -1,5 +1,5 @@
 Fakeriak: a fake Riak client for testing
-==================================
+========================================
 
 .. image:: https://img.shields.io/pypi/v/fakeriak.svg
     :target: https://pypi.python.org/pypi/fakeriak
@@ -32,8 +32,7 @@ Features
 --------
 
 - only default, simple buckets
-- ``RiakBucket.new``, ``RiakBucket.get``, ``RiakBucket.delete``,
-``RiakBucket.multiget``
+- ``RiakBucket.new``, ``RiakBucket.get``, ``RiakBucket.delete``, ``RiakBucket.multiget``
 - ``RiakObject.store()``, ``RiakObject.delete()``, ``RiakObject.exists``
 - no concurrency (sibling) support
 
