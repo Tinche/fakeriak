@@ -116,5 +116,10 @@ class OpsTest(RuleBasedStateMachine):
         for key_result in zip(keys, results):
             assert dict[key_result[0][2]] == key_result[1].data
 
+    @rule(state=states)
+    def close(self, state):
+        """Just assert no errors fly out."""
+        riak, _ = state
+        riak.close()
 
 SimpleOpsTest = OpsTest.TestCase

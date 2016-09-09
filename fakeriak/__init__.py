@@ -29,3 +29,10 @@ class FakeRiakClient(RiakClient):
 
     def __hash__(self):
         return id(self)
+
+    def close(self):
+        """Do nothing.
+
+        This is called from the finalizer, so we override it.
+        """
+        pass
