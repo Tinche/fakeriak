@@ -5,7 +5,7 @@ with open('README.rst') as f:
 
 setup(
     name='fakeriak',
-    version='0.1',
+    version='0.2',
     packages=find_packages(),
     url='https://github.com/Tinche/fakeriak',
     license='Apache 2.0',
